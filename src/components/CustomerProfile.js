@@ -20,7 +20,7 @@ const CustomerProfile = ({customerData}) => {
   })
 
   return (
-   <Grid container >
+   <Grid container ml={4} mt={4}  mr={4} style={{backgroundColor:"white"}}>
       <Grid item xs={2.5} sm={2.5}>
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg"  sx={{ width: 120 , height: 120 , margin: 4}} />
@@ -85,15 +85,16 @@ const CustomerProfile = ({customerData}) => {
         <Divider />
       </Grid>   
 
-      <Grid container xs={12} sm={12}>
+      <Grid container ml={4} mb={4}xs={12} sm={12}>
         <Grid item xs={12} sm={12}>
           <Typography variant="h5" gutterBottom>
           <strong> Personal Details</strong>
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12}>
-          <Grid container spacing={1}>
-              <Grid item xs={2.5} sm={2.5}>
+          <Grid container spacing={1} columnGap={3}>
+             
+              <Grid item xs={2.5} sm={2.5} style={{backgroundColor: "#BDD8FF"}}>
                 <Box>
                 <Typography variant="body1" gutterBottom>
                   First Name
@@ -103,8 +104,8 @@ const CustomerProfile = ({customerData}) => {
                 </Typography>
                 </Box>
               </Grid>
-             
-              <Grid item xs={2.5} sm={2.5}>
+        
+              <Grid item xs={2.5} sm={2.5} style={{backgroundColor: "#BDD8FF"}}>
                 <Box>
                 <Typography variant="body1" gutterBottom>
                   Last Name
@@ -114,7 +115,7 @@ const CustomerProfile = ({customerData}) => {
                 </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={2.5} sm={2.5}>
+              <Grid item xs={2.5} sm={2.5} style={{backgroundColor: "#BDD8FF"}}>
                 <Box>
                 <Typography variant="body1" gutterBottom>
                   Gender
@@ -124,7 +125,7 @@ const CustomerProfile = ({customerData}) => {
                 </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={2.5} sm={2.5}>
+              <Grid item xs={2.5} sm={2.5} style={{backgroundColor: "#BDD8FF"}}>
                 <Box>
                 <Typography variant="body1" gutterBottom>
                   Date of Birth
@@ -136,7 +137,7 @@ const CustomerProfile = ({customerData}) => {
               </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={12} sm={12}>
+        <Grid item mt={2} xs={12} sm={12}>
           <Typography variant="h5" gutterBottom>
           <strong>Address</strong>
           </Typography>
@@ -154,7 +155,7 @@ const CustomerProfile = ({customerData}) => {
                 </Grid>
               </Grid>
 
-              <Grid item  xs={12} sm={12} >
+              <Grid item  xs={12} sm={12} style={{backgroundColor: "#BDD8FF"}}>
                 <Grid container xs={8} sm={8}>
                     <Grid item  xs={6} sm={6}>
                         <Typography align='left'>Landmark</Typography>
@@ -176,7 +177,7 @@ const CustomerProfile = ({customerData}) => {
                 </Grid>
               </Grid>
 
-              <Grid item  xs={12} sm={12}>
+              <Grid item  xs={12} sm={12} style={{backgroundColor: "#BDD8FF"}}>
                 <Grid container xs={8} sm={8}>
                     <Grid item  xs={6} sm={6}>
                         <Typography align='left'>State</Typography>

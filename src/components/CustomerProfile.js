@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Avatar from '@mui/material/Avatar';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
-import { Grid, Container,Typography, Divider} from "@mui/material";
+import { Grid,Typography, Divider} from "@mui/material";
 import Box from '@mui/material/Box';
-
-import customers from '../customers.json'
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
 import CallIcon from '@mui/icons-material/Call';
@@ -17,7 +15,7 @@ const CustomerProfile = ({customerData}) => {
 
   useEffect(()=>{
     setCustomer(customerData)
-  })
+  },[customerData])
 
   return (
    <Grid container ml={4} mt={4}  mr={4} style={{backgroundColor:"white"}}>

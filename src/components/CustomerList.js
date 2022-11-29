@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Divider from '@mui/material/Divider';
@@ -12,7 +12,6 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import TablePagination from '@mui/material/TablePagination';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-import { RadioButtonCheckedOutlined } from '@mui/icons-material';
 import { Radio } from '@mui/material';
 
 const settings = ['A --> Z', 'Z --> A'];

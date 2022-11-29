@@ -1,0 +1,29 @@
+{
+    "customers": [
+            {"id":"1", "firstName":"John", "lastName":"Wick", "userId":"john123", "phone":"4332552341", "gender":"male", "dob":"Aug-21-1989", "address":"221b Bakers street",
+            "landmark":"shop1", "city": "Bangalore", "state":"Kanrataka", "email":"john@gmail.com"},
+        
+            {"id":"2", "firstName":"Axl", "lastName":"Rose", "userId":"rose242", "phone":"9368458395", "gender":"male", "dob":"Aug-21-1979", "address":"221b Bakers street",
+            "landmark":"shop2", "city": "Bangalore", "state":"Kanrataka", "email":"axl@gmail.com"},
+       
+            {"id":"3", "firstName":"Robert", "lastName":"Downey", "userId":"rob465", "phone":"9643565839", "gender":"male", "dob":"Aug-21-1973", "address":"221b Bakers street",
+            "landmark":"shop3", "city": "Bangalore", "state":"Kanrataka", "email":"robert@gmail.com"},
+       
+            {"id":"4", "firstName":"Chris", "lastName":"Evans", "userId":"chr964", "phone":"4332559741", "gender":"male", "dob":"Aug-21-1975", "address":"221b Bakers street",
+             "landmark":"shop4", "city": "Bangalore", "state":"Kanrataka", "email":"chris@gmail.com"},
+       
+             {"id":"5", "firstName":"Steve", "lastName":"Vai", "userId":"ste467", "phone":"4332292341", "gender":"male", "dob":"Aug-21-1949", "address":"221b Bakers street", 
+             "landmark":"shop5", "city": "Bangalore", "state":"Kanrataka", "email":"steve@gmail.com"},
+       
+             {"id":"6", "firstName":"Bruce", "lastName":"Wayne", "userId":"bru792", "phone":"4373952341", "gender":"male", "dob":"Aug-21-1938", "address":"221b Bakers street",
+            "landmark":"shop6", "city": "Bangalore", "state":"Kanrataka", "email":"bruce@gmail.com"},
+
+            {"id":"7", "firstName":"Sherlock", "lastName":"Holmes", "userId":"she715", "phone":"4373529461", "gender":"male", "dob":"Aug-21-1838", "address":"221b Bakers street",
+            "landmark":"shop7", "city": "Bangalore", "state":"Kanrataka", "email":"sherlock@gmail.com"},
+
+            {"id":"8", "firstName":"James", "lastName":"Watson", "userId":"bru795", "phone":"4373529441", "gender":"male", "dob":"Aug-21-1838", "address":"221b Bakers street",
+            "landmark":"shop8", "city": "Bangalore", "state":"Kanrataka", "email":"james@gmail.com"}
+        
+        
+    ]
+}
